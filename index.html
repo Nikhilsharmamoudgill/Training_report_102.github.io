@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <title>Summer Training Report 102</title>
+
+    <style>
+        /* Custom CSS for pop-up animation */
+        .pop-up {
+            animation: popUpAnimation 0.5s ease-out;
+        }
+
+        @keyframes popUpAnimation {
+            0% {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }html{
+        scroll-behavior: smooth;
+        }
+        /* Full-width background image */
+        .bg-cover {
+            background-image: url('IMG_20240625_015735.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100%;
+            transition: transform 0.5s ease, opacity 0.5s ease; /* Hover animation */
+        }
+
+        /* Background image hover effect */
+        .bg-cover:hover {
+            transform: scale(1.05); /* Scale up slightly */
+            opacity: 0.9; /* Slightly reduce opacity */
+        }
+
+        /* Lower title styling */
+        .lower-title {
+            position: absolute;
+            top: 20%;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+        }
+
+        .lower-title h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .lower-title p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        /* Responsive adjustments */
+        @media (min-width: 640px) {
+            .lower-title h1 {
+                font-size: 3.5rem;
+            }
+
+            .lower-title p {
+                font-size: 1.75rem;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .bg-cover {
+                height: auto;
+                min-height: 100vh;
+                padding: 20px;
+            }
+
+            .lower-title h1 {
+                font-size: 2rem;
+            }
+
+            .lower-title p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<div>
+<a id="section1"></a>
+</div>
+<body class="relative">
+    <section class="bg-cover">
+        <header class="text-gray-600 body-font pop-up">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                        viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                    <span class="ml-3 text-xl text-red-200">Nikhil Sharma</span>
+                </a>
+                <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                    <a href="#section1" class="mr-5 hover:text-white-900 hover:underline transition duration-300 text-red-200">Home</a>
+                    <a href="#section2" class="mr-5 hover:text-white-900 hover:underline transition duration-300 text-red-200">Daily Dairy</a>
+                    <a href="https://github.com/Nitingarg01/Training_project" class="mr-5 hover:text-white-900 hover:underline transition duration-300 text-red-200">Project</a>
+                    <a href="aboutus.html"class="mr-5 hover:text-white-900 hover:underline transition duration-300 text-red-200">About US</a>
+                    <a href="contactus.html"class="mr-5 hover:text-white-900 hover:underline transition duration-300 text-red-200">Contact US</a>
+                    
+                </nav>
+              
+            </div>
+        </header>
+      
+       
+    </section>
+</body>
+
+</html>
+
+    
+    <style>
+        /* Custom styles for hover effect */
+        .category-card {
+          transition: transform 0.3s ease;
+        }
+        
+        .category-card:hover {
+          transform: translateY(-5px);
+        }
+        
+        .download-button {
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        
+        .category-card:hover .download-button {
+          opacity: 1;
+        }
+      </style>
+    </head>
+    
+    <div>
+      <a id="section2"></a>
+      </div>
+    <body class="bg-gray-200">
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 1</h1>
+                <p class="leading-relaxed mb-3">Basic  knowledge of html </p>
+                <a href="day1.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>10 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Monday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 2</h1>
+                <p class="leading-relaxed mb-3">continue html basic and introduce list and table and do question of this</p>
+                <a href="day2.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>11 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Tuesday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 3</h1>
+                <p class="leading-relaxed mb-3">Day 3 contains use of emmit in html.</p>
+                <a href="day3.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>12 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Wednesday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 4</h1>
+                <p class="">Day 4 contains introduction of forms</p>
+                <a href="day4.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>13 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Thursday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 5</h1>
+                <p class="leading-relaxed mb-3">Day 5 contain simple html page creat by using form .</p>
+                <a href="day5.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>14 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>friday
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <style>
+        /* Custom styles for hover effect */
+        .category-card {
+          transition: transform 0.3s ease;
+        }
+        
+        .category-card:hover {
+          transform: translateY(-5px);
+        }
+        
+        .download-button {
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        
+        .category-card:hover .download-button {
+          opacity: 1;
+        }
+      </style>
+    </head>
+    <body class="bg-gray-200">
+      
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 6</h1>
+                <p class="leading-relaxed mb-3">contains implementation of form elements and all input types</p>
+                <a href="day6.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>JUNE 15
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Saturday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 7</h1>
+                <p class="leading-relaxed mb-3">introduction to css</p>
+                <a href="day7.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>16 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Sunday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 8</h1>
+                <p class="leading-relaxed mb-3">use of css flex property.</p>
+                <a href="day8.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>17 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Monday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 9</h1>
+                <p class="">Day 9  practice question to creat NavBarby using some previous concept</p>
+                <a href="day9_1.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>18 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Tuesday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 10</h1>
+                <p class="leading-relaxed mb-3">Day 10  practice question to creat responsive card style layout using some previous concept .</p>
+                <a href="day9_2.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>19 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>wednesday
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <hr>
+    <style>
+        /* Custom styles for hover effect */
+        .category-card {
+          transition: transform 0.3s ease;
+        }
+        
+        .category-card:hover {
+          transform: translateY(-5px);
+        }
+        
+        .download-button {
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        
+        .category-card:hover .download-button {
+          opacity: 1;
+        }
+      </style>
+    </head>
+    <body class="bg-gray-200">
+      
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 11</h1>
+                <p class="leading-relaxed mb-3">Day 11  practice question to creat login page using some previous concepts</p>
+                <a href="day9_3.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>JUNE 20
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Thursday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 12</h1>
+                <p class="leading-relaxed mb-3">Day 12  practice question to creat Netflix home page using some previous concepts</p>
+                <a href="day9_4.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>21 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>friday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 13</h1>
+                <p class="leading-relaxed mb-3">introduction to thr concept of media queries</p>
+                <a href="day9.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>22 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Saturday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 14</h1>
+                <p class="leading-relaxed mb-3">Introduction to java script</p>
+                <a href="day10.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>23 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Sunday
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 15</h1>
+                <p class="leading-relaxed mb-3">operators used in javascript .</p>
+                <a href="day11.html" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>24 JUNE
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>Monday
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <body class="bg-gray-200">
+      
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-12 mx-auto">
+            <div class="flex flex-wrap -m-4">
+              <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                  <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 16</h1>
+                  <p class="leading-relaxed mb-3"> Day 16 we learn conditional statements in js</p>
+                  <a href="day12.js" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                    <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>JUNE 25
+                    </span>
+                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>Tuesday
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                  <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 17</h1>
+                  <p class="leading-relaxed mb-3">String methods in js</p>
+                  <a href="day13.js" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                    <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>June 26
+                    </span>
+                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>wednesday
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                  <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 18</h1>
+                  <p class="leading-relaxed mb-3">Array methods in js</p>
+                  <a href="day14.js" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                    <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>27 JUNE
+                    </span>
+                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>Thursday
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                  <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 19</h1>
+                  <p class="leading-relaxed mb-3">funtion and use of different type of function</p>
+                  <a href="day15.js" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                    <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>28 JUNE
+                    </span>
+                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>Friday
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                  <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 20</h1>
+                  <p class="leading-relaxed mb-3">introduction of objects </p>
+                  <a href="day16.js" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                    <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>29 JUNE
+                    </span>
+                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>Saturday
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <body class="bg-gray-200">
+        
+          <section class="text-gray-600 body-font">
+            <div class="container px-5 py-12 mx-auto">
+              <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                  <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                    <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 21</h1>
+                    <p class="leading-relaxed mb-3">use of this keyword</p>
+                    <a href="day17.js" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                      <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                          <circle cx="12" cy="12" r="3"></circle>
+                        </svg>JUNE 30
+                      </span>
+                      <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>Sunday
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                  <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                    <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 22</h1>
+                    <p class="leading-relaxed mb-3">asyncronous js</p>
+                    <a href="day18.js" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                      <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                          <circle cx="12" cy="12" r="3"></circle>
+                        </svg>july 1
+                      </span>
+                      <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>Monday
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                  <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                    <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 23</h1>
+                    <p class="leading-relaxed mb-3">callback and callback hell condition in js</p>
+                    <a href="day19.js" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                      <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                          <circle cx="12" cy="12" r="3"></circle>
+                        </svg>2 july
+                      </span>
+                      <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>Tuesday
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                  <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                    <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 24</h1>
+                    <p class="leading-relaxed mb-3">promises -> solution of callback hell</p>
+                    <a href="day20.js" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                      <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                          <circle cx="12" cy="12" r="3"></circle>
+                        </svg>3 july
+                      </span>
+                      <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>wednesday
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                  <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                    <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 25</h1>
+                    <p class="leading-relaxed mb-3">async-await -> solution for promise chaining  </p>
+                    <a href="day21.js" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                      <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                          <circle cx="12" cy="12" r="3"></circle>
+                        </svg>4 july
+                      </span>
+                      <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>Thursday
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr>
+          <body class="bg-gray-200">
+          
+            <section class="text-gray-600 body-font">
+              <div class="container px-5 py-12 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                  <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                    <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                      <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 26</h1>
+                      <p class="leading-relaxed mb-3">introduction to dom menopulation </p>
+                      <a href="day22.js" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                      <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                        <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                          </svg>july 5
+                        </span>
+                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                          </svg>friday
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                    <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                      <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 27</h1>
+                      <p class="leading-relaxed mb-3"></p>
+                      <a href="basic_openCV_day_17.ipynb - Colab.pdf" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                      <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                        <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                          </svg>july 6
+                        </span>
+                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                          </svg>Saturday
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                    <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                      <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 28</h1>
+                      <p class="leading-relaxed mb-3"></p>
+                      <a href="RNN&NLP_DAY_18.ipynb - Colab.pdf" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                      <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                        <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                          </svg>7 july
+                        </span>
+                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                          </svg>Sunday
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                    <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                      <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 29</h1>
+                      <p class="leading-relaxed mb-3"></p>
+                      <a href="basic_nlp.ipynb - Colab_day19.pdf" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                      <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                        <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                          </svg>8 july
+                        </span>
+                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                          </svg>Monday
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-4 lg:w-1/5 md:w-1/2 w-full category-card">
+                    <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+                      <h1 class="title-font sm:text-xl text-lg font-medium text-gray-900 mb-3">Day 30</h1>
+                      <p class="leading-relaxed mb-3">introduction to Gans and Then project continues </p>
+                      <a href="GAN'S.ipynb - Colab_day_20.pdf" download class="text-indigo-500 inline-flex items-center download-button">Download File
+                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                      <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                        <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                          </svg>9 july
+                        </span>
+                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                          </svg>Tuesday
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <hr>
+  
+      <title>Footer Example</title>
+  
+      <!-- Include Tailwind CSS for utility classes -->
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    
+      <!-- Custom CSS for footer -->
+      <style>
+        /* Custom CSS for footer */
+        .footer {
+          background-color: #f3f4f6; /* Light gray background */
+          color: #4b5563; /* Default text color */
+        }
+    
+        .footer a {
+          color: inherit; /* Inherit text color from parent */
+          transition: color 0.3s ease; /* Smooth transition for color change */
+        }
+    
+        .footer a:hover {
+          color: #1a202c; /* Darker text color on hover */
+        }
+    
+        /* Social icons hover color */
+        .footer .social-icons a:hover svg {
+          stroke: #1a202c; /* Darker stroke color on hover */
+        }
+      </style>
+    </head>
+    
+    <body>
+      <footer class="text-gray-600 body-font footer">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-red-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Nikhil Sharma</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Nikhil Sharma —
+            <a href="https://x.com/NikhilSharmagg?t=o-RcKN2BFVxRks3RmQPCbg&s=08" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@NikhilSharmagg</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start social-icons">
+            <a href="#" class="text-gray-500 hover:text-gray-900">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a href="https://x.com/NikhilSharmagg?t=o-RcKN2BFVxRks3RmQPCbg&s=08" class="ml-3 text-gray-500 hover:text-gray-900">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/nikhilsharma_0404?igsh=dWI0MGloc3FnZ3du" class="ml-3 text-gray-500 hover:text-gray-900">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/nikhil-sharma-a52220251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="ml-3 text-gray-500 hover:text-gray-900">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+    
+</body>
+</html>
